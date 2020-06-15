@@ -1,0 +1,133 @@
+@charset "ISO-8859-2";
+/* CSS Document */
+
+html {
+	background-color:#F4F4F4;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	width:100%;
+    min-height: 100%;
+	border:2px solid #ddd;
+	margin:1px auto;
+	background-color:#fff;
+	padding:10px 30px;
+	border-radius:5px;
+}
+
+h1 {
+	font-size:7vw;
+	font-style:italic;
+	letter-spacing:-0.05em;
+	color:#000;
+	margin:2px 0 15px;
+	text-shadow:1px 1px 2px #666;
+}
+
+h2 {
+    font-size:5vw;
+    font-style:italic;
+    text-align: center;
+	letter-spacing:-0.05em;
+	color:#fff;
+	margin:2px 0 15px;
+	text-shadow:1px 1px 2px #666;
+}
+
+h3 {
+    font-size:5vw;
+    font-style:italic;
+    text-align: center;
+	letter-spacing:-0.05em;
+	color:#000;
+	margin:2px 0 15px;
+	text-shadow:1px 1px 2px #666;
+}
+
+h4 {
+	font-size:3vw;
+	font-style:bold;
+	letter-spacing:-0.05em;
+	color:#000;
+}
+
+input {
+	display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+	border-radius:3px;
+}
+
+input:focus {
+	border:1px solid #ccc;
+	outline:none;
+}
+
+input[type=submit] {
+	width:100px;
+	color:#FFF;
+	background:linear-gradient(top, #F33, #933 );
+	border:1px solid #333;
+	cursor:pointer;
+}
+
+input[name=RadioChks]{
+    display:inline-block;
+}
+
+input[name=SaveInfo]{
+    display: inline-block;
+}
+
+#CardNumberTxtBx{
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#ExpirationDateTxtBx{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+#SecurityCodePassBx{
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+#InstallmentsList{
+  width: 120%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#CuponCodeTxtBx{
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}

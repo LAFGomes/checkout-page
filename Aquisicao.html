@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Your Bank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            img {
+                max-width: 100%;
+                }
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+        
+    </head>
+    
+    <body>
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8" style = "text-align: center">
+                <h1>Payment Options</h1>
+            </div>
+
+        </div>
+        <fieldset>
+            <div class="row">
+                <div class="col-12" style = "margin-bottom: 10px">
+                    <input type="radio" id="CreditCardRdChk" name="RadioChks">
+                    <label for="Payment Method"><h4>Credit Card</h4></label>
+                    <img alt = "Bandeiras" src="Imgs/Bdc.png" width=50% heigth=15%/
+                    title = "Badeiras de cartões"
+                    alt = "Bandeiras de cartões"
+                    >
+                </div>
+                
+                <div class="col-12">
+                    <label for="CardNumber"><h4>Credit Card Number</h4></label>
+                    <input type="text" id="CardNumberTxtBx" name="CardNumber" width:100% maxlength="16" required placeholder="**** **** **** ****" >
+                    
+                </div>
+                
+                <div class="col-4">    
+                    <label for="ExpirationDateTxtBx"><h4>Expiration Date</h4></label>
+                    <input type="text" id="ExpirationDateTxtBx" name="ValidDate" size="5" maxlength="7" required placeholder="01/2020">
+                    
+                </div>
+                
+                <div class="col-8" >
+                    <label for="Security Code"><h4>Security Code</h4></label>
+                    <input type="password" id="SecurityCodePassBx" name="SecurityCode" size="2" maxlength="3" required placeholder="***" > 
+
+                </div>
+                    
+                <div class="col-5">
+                    <label for="Installments"><h4>Installments</h4></label>
+                    <input type="text" list="Installments" name="Installments" id="InstallmentsList" placeholder="1x of R$1000,00">
+                    <datalist id="Installments">
+                        <option value = "1x of R$1000,00"1x></option>
+                        <option value = "2x of R$500,00"2x></option>
+                        <option value = "3x of R$333,33"3x></option>
+                        <option value = "4x of R$250,00"4x></option>
+                        <option value = "5x of R$200,00"5x></option>
+                        <option value = "6x of R$166,67"6x></option>
+                        <option value = "7x of R$142,85"7x></option>
+                        <option value = "8x of R$125,00"8x></option>
+                        <option value = "9x of R$111,11"9x></option>
+                        <option value = "10x of R$100,00"10x></option>
+                        <option value = "11x of R$90,90"11x></option>
+                        <option value = "12x of R$83,33"12x></option>
+                    </datalist>
+                </div>
+                
+                <div class="col-5" >
+                    <label for="CuponCode"><h4>Cupon Code</h4></label>
+                    <input type="text" id="CuponCodeTxtBx" name="SecurityCode" size="8" maxlength="8" style="margin-left: 10px" placeholder="20-OFF"> 
+                    
+                </div>
+                
+                <div class="col-8">
+                    <input type="checkbox" id="SaveCardChkBx" name="SaveInfo">
+                    <label for="SaveInfo"><h4>Save this card for future purchases.</h4></label>
+
+                </div>
+
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <div>
+                <input type="radio" id="BankSlipRdChk" name="RadioChks">
+                <label for="BankSlipRdChk"><h4>BankSlip</h4></label>
+                 <img alt = "BankSlip" src="Imgs/boleto.png" width=10% heigth=6%/
+                 title = "BankSlip"
+                 alt = "BankSlip"
+
+                 style = "margin-right:10px"
+                 >        
+
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <input type="radio" id="OnlineTransferRdChk" name="RadioChks" />
+                <label for="OnlineTransferRdChk"><span></span><h4>Online Transfer</h4></label>  
+
+                <img alt = "Banks" src="Imgs/Bancos.jpg" width=35% heigth=10%/
+                 title = "AllBanks"
+                 alt = "AllBanks"
+
+                 style = "margin-right:10px"
+                 >
+
+            </div>
+        </fieldset>
+
+            <div style = "text-align: center" >
+                <a href="Confirmacao.html" 
+                   class="btn btn-success"
+                   style = "text-align: center; width:50%; height:20%; margin-top:40px; margin-bottom: 20px"><h2>Place Order Now</h2>
+                </a>
+            </div>
+    </body>
+</html>
